@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe build active file",
+            "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-I${workspaceFolder}\\example",
+                "-I${workspaceFolder}\\utils\\image",
+                "-I${workspaceFolder}\\utils\\memory",
+                "-I${workspaceFolder}\\zbar",
+                "-I${workspaceFolder}\\zbar\\decoder",
+                "-I${workspaceFolder}\\zbar\\libiconv\\Include",
+                "-I${workspaceFolder}\\zbar\\qrcode",
+                "${workspaceFolder}\\utils\\image\\*.c",
+                "${workspaceFolder}\\utils\\memory\\*.c",
+                "${workspaceFolder}\\zbar\\*.c",
+                "${workspaceFolder}\\zbar\\decoder\\*.c",
+                "${workspaceFolder}\\zbar\\qrcode\\*.c",
+                "${fileDirname}\\${fileBasenameNoExtension}.c",
+                "-o",
+                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe"
+        }
+    ]
+}

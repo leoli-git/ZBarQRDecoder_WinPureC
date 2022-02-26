@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "**/frontmatter.json": "jsonc",
+        "**/.frontmatter/config/*.json": "jsonc",
+        "*.cfg": "cpp",
+        ".env*": "dotenv",
+        "zbar.h": "c",
+        "decoder.h": "c",
+        "debug.h": "c",
+        "config.h": "c",
+        "string.h": "c",
+        "stringapiset.h": "c",
+        "*.def": "c",
+        "iconv_open1.h": "c",
+        "converters.h": "c",
+        "aliases.h": "c",
+        "stdint.h": "c",
+        "bitmap.h": "c",
+        "image.h": "c",
+        "symbol.h": "c",
+        "refcnt.h": "c",
+        "stdlib.h": "c",
+        "error.h": "c",
+        "unistd.h": "c",
+        "process.h": "c",
+        "windows.h": "c"
+    }
+}
